@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    background: #FFFFFF;
+    overflow-x: hidden;
+    height: 100%; 
+}
+
+
+.header-container {
+    top: 0;
+    left: 0;
+    position: fixed; 
+    width: 100%; 
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #FFB3B3;
+    z-index: 100;
+} 
+
+.mb-3 {
+    margin-bottom: 0 !important;
+}
+
+ul.nav..nav-pills {
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 5px 2px;
+    width: 100%; 
+    font-size: 10px;
+    background: #FFB3B3;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #ab2c39;
+}
+
+
+.nav-link.disabled {
+    display: none;
+}
+
+.header-container {
+    top: 0; 
+    padding: 0; 
+}
+
+#home-container, 
+#about-me, 
+#skills,
+#projects {
+    padding: 20% 3%;
+}
+
+
+.name, h1 { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color:#805959;
+    font-weight: 700;
+    padding: 0;
+}
+
+.name {
+    margin-top: 28px;
+}
+
+.first {
+    margin-top: 90px;
+    font-size: 61px;
+}
+ 
+.last {
+    font-size: 60px; 
+}
+
+hr {
+    width: 63%; 
+    margin-top: 3px; 
+    border-top: 7px double #CCCCCC;
+}
+
+#home-container h2 {
+    margin-left: 0px;
+    margin-top: -5px;
+    color: #727272;
+    letter-spacing: initial;
+    font-size: 13px;
+}
+
+#home-container {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    margin-top: 10px;
+}
+
+
+
+#home-container .aspire-container {
+    position: absolute; 
+    top: 58%; 
+    right: 16%;
+    transform: translateY(-50%);
+    width: 33%; 
+    height: 67%; 
+    background: transparent;
+    overflow: hidden; 
+    pointer-events: none; 
+}
+
+#home-container .aspire-container .aspire-box {
+    position: absolute; 
+    top: -61px; 
+    right: -37px; 
+    width: 103%; 
+    height: 77%; 
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-container .aspire-box .aspire {
+    left: 0; 
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    color: #595757;
+    transform: rotate(calc(360deg/ 1 * var(--i)));
+    transform-origin: 300px;
+}
+
+.home-container .aspire h3 {
+    font-size: 3.2em;
+    line-height: 1;
+}
+
+.circle {
+    width: 99%;
+    height: 50%;
+    background: transparent; 
+    border: 2px solid #791922; 
+    border-radius: 50%; 
+}
+
+
+.home-image img {
+    position: absolute;
+    bottom: 268px; 
+    right: -21px; 
+    width: 55%; 
+    pointer-events: none;
+}
+
+
+.overlay {
+    height: 66%;
+    position: absolute; 
+    top: 60px; 
+    right: -2px; 
+    width: 0;
+    border-top: 120px solid #FFB3B1;
+    border-right: 87px solid #FFB3B1;
+    border-bottom: 120px solid #FFB3B1;
+    border-left: 128px solid transparent;
+}
+
+
+
+
+#skills h2, 
+#about-me h2 {
+    font-size: 47px;
+    letter-spacing: 2px;
+}
+
+.about,
+.project-heading {
+    color: #950a0a;
+}
+
+#about-me p {
+    margin-top: 26px;
+    font-size: 19px;
+}
+
+#skills h2 {
+    color:#e76262;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me, 
+.skills {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skill-set {
+    display: flex; 
+    flex-direction: row;
+    list-style-position: inside;
+}
+
+.programming h4,
+.front-end h4,
+.other h4 {
+ font-size: 13px; 
+}
+
+.programming h4, 
+.front-end h4 {
+    text-align-last: center;
+}
+
+.programming, 
+.front-end, 
+.other {
+    border-right:#e76262 ridge 5px;
+    border-bottom: #e76262 ridge 5px;
+    margin-right: 5px;
+    border-radius: 8%;
+    list-style-type: circle;
+    width: 33.3%;
+    color:#000000;
+    padding: 9px;
+    background: #ffd1d8;
+}
+
+.programming li, 
+.front-end li, 
+.other li {
+    font-size: 11px; 
+}
+
+.other h4{
+    text-align: center;
+}
+
+.other li:first-child {
+    margin-top: 21px;
+}
+
+#skills {
+    background-image: url("../images/closeupkeyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+color: #000000;
+}
+
+#projects .projects {
+    padding-bottom: 5rem; 
+}
+
+.projects h2 {
+    margin-bottom: 2.5rem; 
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.container-1 .project, 
+.container-2 .project, 
+.container-3 .project, 
+.container-4 .project, 
+.container-5 .project,
+.container-6 .project {
+    position: relative; 
+    display: flex; 
+    border-radius: 5px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.project img {
+    width: 18em;
+    height: 12em; 
+}
+
+.project .project-box{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    background: linear-gradient(rgba(251, 243, 243, 0.61), #e7526c);
+    padding: 20px; 
+}
+
+.project-box h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-box p {
+    text-align: center;
+}
+
+.projects-container p {
+    font-size: 12.5px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .header-container {
+        top: 0;
+        left: 0;
+        position: fixed; 
+        width: 100%; 
+        padding: 0.5em 3%;
+        background: #FFB3B3;
+        z-index: 100;
+    }   
+   
+    .nav-pills {
+        position: absolute;
+        justify-content: flex-start; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        padding: 1em 3%; 
+        font-size: 12px;
+        margin-top: 5px;
+        font-size: 15px;
+        }
+
+        section {
+            padding: 16% 3%;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            margin: 0;
+            letter-spacing: 0.4rem;
+            width: 74%;
+        }
+
+        .first {
+            margin-top: 16px;
+            font-size: 94px;
+        }
+        .last {
+            font-size: 94px;
+        }
+
+        #home-container h2 {
+            font-size: 30px; 
+        }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home-container .aspire-container .aspire-box {
+
+        height: 100%; 
+        right: 0;
+    }
+
+
+    .overlay {
+        height: 100%;
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        width: 0;
+        border-top: 228px solid #FFB3B1;
+        border-right: 228px solid #FFB3B1;
+        border-bottom: 228px solid #FFB3B1;
+        border-left: 228px solid transparent;
+    }
+
+    .circle {
+        width: 94%;
+        height: 71%;
+    }
+
+    .home-image img {
+        position: absolute;
+        bottom: 177px; 
+        right: 113px; 
+        width: 37%; 
+        pointer-events: none;
+    }
+
+.programming, 
+.front-end, 
+.other {
+    width: 34.3%; 
+    border-radius: 14%;
+    padding: 15px;
+    margin-right: 8px;
+}
+
+
+
+.programming h4,
+.front-end h4,
+.other h4 {
+ font-size: 20px; 
+}
+
+
+.programming li,
+.front-end li,
+.other li {
+ font-size: 18px; 
+}
+
+
+.projects-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+    
+    
+}
+
+@media (min-width: 1024px) {
+
+    ul.nav..nav-pills {
+        font-size: 19.5px;
+    }
+
+    #home-container, 
+    #about-me, 
+    #skills, 
+    #projects {
+        padding: 15% 3%;
+    }
+
+    #home-container {
+        margin-top: 0;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .first,
+    .last {
+        font-size: 113px
+    }
+
+    .overlay {
+        border-right: 286px solid #FFB3B1;
+    }
+
+    #home-container .aspire-container {
+        top: 61%; 
+        right: 6%; 
+        width: 43%; 
+        height: 88%;
+    }
+
+    .home-image img {
+        bottom: 102px;
+        right: 127px;
+
+    }
+
+    .project img {
+        width: 19em;
+    }
+    
+}
