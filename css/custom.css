@@ -332,9 +332,22 @@ color: #000000;
     font-size: 12.5px;
 }
 
+#resume {
+    padding-top: 0;
+}
+
+.resume {
+    display: flex;
+    font-size: 47px;
+    letter-spacing: 2px;
+    margin-left: 27px;
+}
+
 #resume img {
     width: 74%;
     margin: auto;
+    display: flex;
+    
 }
 
 
