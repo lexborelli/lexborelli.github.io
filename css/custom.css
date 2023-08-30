@@ -332,6 +332,10 @@ color: #000000;
     font-size: 12.5px;
 }
 
+#resume img {
+    width: 74%;
+    margin: auto;
+}
 
 
 @media (min-width: 768px) {
