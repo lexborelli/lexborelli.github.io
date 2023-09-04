@@ -189,30 +189,32 @@
       </section>
 
       <section id="contact">
-          <h2 class="contact-heading">Contact Me</h2>
+          <h2 class="contact-heading">Contact</h2>
 
-          <div class="contact">
+          <form id="contact-main-form">
+            <h3 class="contact-form-heading">Contact Me</h3>
+            <p>Feel free to send me a message. I would love to hear from you!</p>
           <div class="contact-form">
             <label for="">Your Name</label>
-            <input type="text" id="name" placeholder="first and last name">
+            <input type="text" id="name" placeholder="first and last name" required>
           </div>
 
           <div class="contact-form">
             <label for="">Your Email</label>
-            <input type="text" id="email" placeholder="ex:andre@gmail.com">
+            <input type="text" id="email" placeholder="ex:andre@gmail.com" required>
           </div>
           <div class="contact-form">
             <label for="">Subject</label>
-            <input type="text" id="subject" placeholder="Subject">
+            <input type="text" id="subject" placeholder="Subject" required>
           </div>
           <div class="contact-form">
             <label for="">Message</label>
-            <textarea id="message" placeholder="Write your message here."></textarea>
+            <textarea id="message" placeholder="Write your message here." required></textarea>
           </div>
           <div class="contact-form">
-            <button onclick="sendMessage();">Send</button>
+            <button type="submit" class="sumbit-btn">Send</button>
           </div>
-        </div>
+        </form>
       </section>
 
     

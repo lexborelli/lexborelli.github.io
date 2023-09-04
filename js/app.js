@@ -1,24 +1,36 @@
 
+const contactForm = document.querySelector("#contact-main-form");
+const submitBtn = document.querySelector(".submit-btn");
+const name = document.querySelector("#name");
+const email = document.querySelector("email");
+const message = document.querySelector("#message"); 
 
-function sendMessage(){ 
-    (function(){
-        emailjs.init("VgQq5a7HAxfmx1TS_");
+const publicKey = "VgQq5a7HAxfmx1TS_";
+const serviceID = "service_4aomxmt";
+const templateID = "template_8o50j1j";
+
+emailjs.init(publicKey); 
+
+contactForm.addEventListener("submit", e => {
+
+    e.preventDefault();
+    submitBtn.innerText = "Just a minute...";
+
+    const inputFields = {
+        name: nameInput.value,
+        email: emailInput.value,
+        message: messageInput.value
     }
-)};
 
-var serviceID = "service_4aomxmt"; 
-var templateID = "template_8o50j1j"; 
-
-var params = {
-    senderName: document.querySelector("#name").value,
-    senderEmail: document.querySelector("#email").value,
-    subject: document.querySelector("#subject").value,
-    message: document.querySelector("#message").value
-};
-
-emailjs.send(serviceID, templateID, params)
-.then( res => { 
-   alert('Thank you, ' + params['senderName'] + '| Your message has been sent.');
-})
-
-.catch(); 
+    emailjs.send(serviceID, templateID, inputFields)
+    .then(() => {
+        submitBtn.innerText = "Message was sent successfully."; 
+        nameInput.value = "";
+        emailInput.value = "";
+        messageInput.value = "";
+    }, (error) => {
+        console.log(error);
+        
+        submitBtn.innerText = "Something went wrong";
+    });
+});

@@ -352,11 +352,14 @@ color: #000000;
 }
 
 #contact {
-    background: #FFB3B3;
+    background-image: url("../images/pinkthemekeyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
-.contact {
-    background:#ffd1d8;
+#contact-main-form {
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,28 +368,42 @@ color: #000000;
     border-radius: 10px;
     width: 60%;
     margin: auto;
+    border: groove;
 }
 
 .contact-form {
     margin-bottom: 15px;
 }
 
-.contact input,
-.contact textarea {
+#contact-main-form input,
+#contact-main-form textarea {
     border-radius: 5px;
     width: 100%;
+    padding: 5px 10px; 
 }
 
-.contact label {
+#contact-main-form label {
     font-weight: bold;
     display: block;
+}
+
+.contact-heading {
+    font-size: 47px;
+    padding-bottom: 25px;
+    padding-left: 25px;
 }
 
 button {
     display: block;
     margin: auto;
-    padding: 10px 20px;
+    padding: 10px 36px;
+    border-radius: 5px;
+    background: #f8f9fa;
+    cursor: pointer;
+}
 
+button:hover {
+    background: #e76262;
 }
 
 
