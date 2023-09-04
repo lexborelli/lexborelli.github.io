@@ -1,8 +1,10 @@
+
+
 function sendMessage(){ 
     (function(){
         emailjs.init("VgQq5a7HAxfmx1TS_");
     }
-)}();
+)};
 
 var serviceID = "service_4aomxmt"; 
 var templateID = "template_8o50j1j"; 
