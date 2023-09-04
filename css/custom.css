@@ -64,7 +64,8 @@ a:hover {
 #home-container, 
 #about-me, 
 #skills,
-#projects {
+#projects, 
+#contact {
     padding: 20% 3%;
 }
 
@@ -341,14 +342,53 @@ color: #000000;
     font-size: 47px;
     letter-spacing: 2px;
     margin-left: 27px;
+    color: #d56161;
 }
 
 #resume img {
     width: 74%;
     margin: auto;
     display: flex;
-    
 }
+
+#contact {
+    background: #FFB3B3;
+}
+
+.contact {
+    background:#ffd1d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.contact-form {
+    margin-bottom: 15px;
+}
+
+.contact input,
+.contact textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact label {
+    font-weight: bold;
+    display: block;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+
+}
+
 
 
 @media (min-width: 768px) {
