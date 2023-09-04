@@ -13,8 +13,6 @@ emailjs.init(publicKey);
 
 contactForm.addEventListener("submit", e => {
 
-    e.preventDefault();
-    submitBtn.innerText = "Just a minute...";
 
     const inputFields = {
         name: nameInput.value,
