@@ -13,7 +13,6 @@ emailjs.init(publicKey);
 
 contactForm.addEventListener("submit", e => {
 
-
     const inputFields = {
         name: nameInput.value,
         email: emailInput.value,
