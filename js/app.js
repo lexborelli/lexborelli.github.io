@@ -1,8 +1,8 @@
 
 const contactForm = document.querySelector("#contact-main-form");
 const submitBtn = document.querySelector(".submit-btn");
-const name = document.querySelector("#name");
-const email = document.querySelector("email");
+const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("email");
 const message = document.querySelector("#message"); 
 
 const publicKey = "VgQq5a7HAxfmx1TS_";
