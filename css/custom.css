@@ -223,20 +223,20 @@ hr {
     list-style-position: inside;
 }
 
-.programming h4,
-.front-end h4,
-.other h4 {
+#programming h4,
+#front-end h4,
+#other h4 {
  font-size: 13px; 
 }
 
-.programming h4, 
-.front-end h4 {
+#programming h4, 
+#front-end h4 {
     text-align-last: center;
 }
 
-.programming, 
-.front-end, 
-.other {
+#programming, 
+#front-end, 
+#other {
     border-right:#e76262 ridge 5px;
     border-bottom: #e76262 ridge 5px;
     margin-right: 5px;
@@ -248,13 +248,13 @@ hr {
     background: #ffd1d8;
 }
 
-.programming li, 
-.front-end li, 
-.other li {
+#programming li, 
+#front-end li, 
+#other li {
     font-size: 11px; 
 }
 
-.other h4{
+#other h4{
     text-align: center;
 }
 
@@ -555,9 +555,9 @@ color:#e7526c
         pointer-events: none;
     }
 
-.programming, 
-.front-end, 
-.other {
+#programming, 
+#front-end, 
+#other {
     width: 34.3%; 
     border-radius: 14%;
     padding: 15px;
@@ -566,16 +566,16 @@ color:#e7526c
 
 
 
-.programming h4,
-.front-end h4,
-.other h4 {
+#programming h4,
+#front-end h4,
+#other h4 {
  font-size: 20px; 
 }
 
 
-.programming li,
-.front-end li,
-.other li {
+#programming li,
+#front-end li,
+#other li {
  font-size: 18px; 
 }
 

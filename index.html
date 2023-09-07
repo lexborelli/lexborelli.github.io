@@ -79,25 +79,32 @@
       <h2 class="skills">Skills</h2>
 
       <div class="skill-set">
-      
-        <ul class="programming">
-          <h4>Programming Languages</h4>
-          <li>Javascript</li>
-            </ul>
 
-            <ul class="front-end">
-              <h4>Front-End development</h4>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
+        <div id="programming">
+        <h4>Programming Languages</h4>
+          <ul class="programming">
+            <li>Javascript</li>
+          </ul>
+         </div>
 
+         <div id="front-end">
+            <h4>Front-End development</h4>
+              <ul class="front-end">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+          </div>
+
+
+            <div id="other">
+            <h4>Other</h4>
             <ul class="other">
-              <h4>Other</h4>
               <li>Sass</li>
               <li>Git</li>
               <li>Object-Oriented Programming</li>
               <li> AJAX Programming</li>
             </ul>
+            </div>
     
             </div>
 
@@ -170,7 +177,7 @@
 
       <div class="container-6">
         <div class="project">
-        <img src="images/web app dashboard.png" alt="web app dashboard">
+        <img src="images/webappdashboard.png" alt="web app dashboard">
 
           <div class="project-box">
           <h4>Web App Dashboard <a href="https://lexborelli.github.io/WebApp-Dashboard/"><i class='bx bx-link'></i></a></h4>
@@ -185,7 +192,7 @@
 
     <section id="resume">
       <h2 class="resume">Resume</h2>
-      <img src="images/Alexas Borelli Resume.png" alt="resume">
+      <img src="images/AlexasBorelliResume.png" alt="resume">
 
 
       </section>
@@ -197,20 +204,20 @@
             <h3 class="contact-form-heading">Contact Me</h3>
             <p>Feel free to send me a message. I would love to hear from you!</p>
           <div class="contact-form">
-            <label for="">Your Name</label>
+            <label for="name">Your Name</label>
             <input type="text" id="name" placeholder="first and last name" required>
           </div>
 
           <div class="contact-form">
-            <label for="">Your Email</label>
+            <label for="email">Your Email</label>
             <input type="text" id="email" placeholder="ex:andre@gmail.com" required>
           </div>
           <div class="contact-form">
-            <label for="">Subject</label>
+            <label for="subject">Subject</label>
             <input type="text" id="subject" placeholder="Subject" required>
           </div>
           <div class="contact-form">
-            <label for="">Message</label>
+            <label for="message">Message</label>
             <textarea id="message" placeholder="Write your message here." required></textarea>
           </div>
           <div class="contact-form">
@@ -224,23 +231,21 @@
 
           
             <div id="linked-in">
-              <?xml version="1.0" encoding="utf-8"?>
               <svg class="linked-in-icon" viewBox="2 0 12 14" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#fff" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"/></svg>
             </div>
             <div class="linkclick">
               <p>You can access my LinkedIn by clicking the url below!</p>
-              <p>LinkedIn: <a class="linkedlink" href>www.linkedin.com/in/alexas-borelli-8139328a</a></p>
+              <p>LinkedIn: <a class="linkedlink" href="www.linkedin.com/in/alexas-borelli-8139328a">www.linkedin.com/in/alexas-borelli-8139328a</a></p>
               <button id="close-modal">X</button>
             </div>
 
             <div id="github">
-              <?xml version="1.0" encoding="utf-8"?>
               <svg class="github-icon" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#fff" fill-rule="evenodd" d="M8 1C4.133 1 1 4.13 1 7.993c0 3.09 2.006 5.71 4.787 6.635.35.064.478-.152.478-.337 0-.166-.006-.606-.01-1.19-1.947.423-2.357-.937-2.357-.937-.319-.808-.778-1.023-.778-1.023-.635-.434.048-.425.048-.425.703.05 1.073.72 1.073.72.624 1.07 1.638.76 2.037.582.063-.452.244-.76.444-.935-1.554-.176-3.188-.776-3.188-3.456 0-.763.273-1.388.72-1.876-.072-.177-.312-.888.07-1.85 0 0 .586-.189 1.924.716A6.711 6.711 0 018 4.381c.595.003 1.194.08 1.753.236 1.336-.905 1.923-.717 1.923-.717.382.963.142 1.674.07 1.85.448.49.72 1.114.72 1.877 0 2.686-1.638 3.278-3.197 3.45.251.216.475.643.475 1.296 0 .934-.009 1.688-.009 1.918 0 .187.127.404.482.336A6.996 6.996 0 0015 7.993 6.997 6.997 0 008 1z" clip-rule="evenodd"/></svg>
             </div>
 
             <div class="github-click">
               <p>You can access my Github account by clicking the url below!</p>
-              <p>Github: <a class="github-link" href>https://github.com/lexborelli</a></p>
+              <p>Github: <a class="github-link" href="https://github.com/lexborelli">https://github.com/lexborelli</a></p>
               <button id="close-modal-github">X</button>
             </div>
 
