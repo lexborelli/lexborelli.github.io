@@ -32,7 +32,7 @@ body {
     margin-bottom: 0 !important;
 }
 
-ul.nav..nav-pills {
+.nav .nav-pills {
     top: 0; 
     display: flex;
     justify-content: center;
@@ -605,7 +605,7 @@ color:#e7526c
 
 @media (min-width: 1024px) {
 
-    ul.nav..nav-pills {
+    .nav .nav-pills {
         font-size: 19.5px;
     }
 
