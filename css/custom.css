@@ -335,6 +335,7 @@ color: #000000;
 
 #resume {
     padding-top: 0;
+    margin-bottom: 30px;
 }
 
 .resume {
@@ -346,7 +347,7 @@ color: #000000;
 }
 
 #resume img {
-    width: 74%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
