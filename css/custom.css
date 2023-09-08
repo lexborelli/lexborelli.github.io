@@ -118,11 +118,11 @@ hr {
 
 #home-container .aspire-container {
     position: absolute; 
-    top: 58%; 
+    top: 30%; 
     right: 16%;
     transform: translateY(-50%);
     width: 33%; 
-    height: 67%; 
+    height: 25%; 
     background: transparent;
     overflow: hidden; 
     pointer-events: none; 
@@ -130,10 +130,10 @@ hr {
 
 #home-container .aspire-container .aspire-box {
     position: absolute; 
-    top: -61px; 
+    top: 30px; 
     right: -37px; 
     width: 103%; 
-    height: 77%; 
+    height: 68%; 
     border-radius: 50%;
     background: transparent;
     display: flex;
@@ -158,7 +158,7 @@ hr {
 
 .circle {
     width: 99%;
-    height: 50%;
+    height: 124%;
     background: transparent; 
     border: 2px solid #791922; 
     border-radius: 50%; 
@@ -167,7 +167,7 @@ hr {
 
 .home-image img {
     position: absolute;
-    bottom: 268px; 
+    bottom: 581px; 
     right: -21px; 
     width: 55%; 
     pointer-events: none;
@@ -175,7 +175,7 @@ hr {
 
 
 .overlay {
-    height: 66%;
+    height: 47%;
     position: absolute; 
     top: 60px; 
     right: -2px; 
@@ -186,7 +186,9 @@ hr {
     border-left: 128px solid transparent;
 }
 
-
+#about-me {
+    margin-top: 30px;
+}
 
 
 #skills h2, 
@@ -367,7 +369,7 @@ color: #000000;
     flex-direction: column;
     padding: 25px;
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     border: groove;
 }
@@ -524,6 +526,12 @@ color:#e7526c
         grid-template-columns: repeat(2, 1fr);
     }
 
+    #home-container .aspire-container {
+        top: 43%;
+        width: 35%;
+        height: 65%;
+    }
+
     #home-container .aspire-container .aspire-box {
 
         height: 100%; 
@@ -635,9 +643,9 @@ color:#e7526c
     }
 
     #home-container .aspire-container {
-        top: 61%; 
+        top: 48%; 
         right: 6%; 
-        width: 43%; 
+        width: 45%; 
         height: 88%;
     }
 
