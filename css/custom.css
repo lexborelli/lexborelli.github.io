@@ -94,7 +94,7 @@ a:hover {
 }
 
 hr {
-    width: 63%; 
+    width: 100%; 
     margin-top: 3px; 
     border-top: 7px double #CCCCCC;
 }
@@ -108,6 +108,7 @@ hr {
 }
 
 #home-container {
+    position: relative;
     display: flex;
     align-items: center;
     background: #FFFFFF;
@@ -117,23 +118,25 @@ hr {
 
 
 #home-container .aspire-container {
-    position: absolute; 
-    top: 30%; 
-    right: 16%;
+    position: relative; 
+    top: 69px; 
+    right: 0px;
+    left: 0px;
     transform: translateY(-50%);
-    width: 33%; 
-    height: 25%; 
+    width: 90%; 
+    height: 90%; 
     background: transparent;
-    overflow: hidden; 
     pointer-events: none; 
 }
 
 #home-container .aspire-container .aspire-box {
-    position: absolute; 
-    top: 30px; 
-    right: -37px; 
-    width: 103%; 
-    height: 68%; 
+    position: relative; 
+    top: 12px; 
+    right: 0px; 
+    bottom: 0px;
+    left: 0px;
+    width: 97%; 
+    height: 99%; 
     border-radius: 50%;
     background: transparent;
     display: flex;
@@ -142,7 +145,10 @@ hr {
 }
 
 #home-container .aspire-box .aspire {
-    left: 0; 
+    --i: 0;
+    left: 0px; 
+    right: 0px;
+    bottom: 0px;
     position: absolute; 
     display: flex;
     align-items: center;
@@ -157,32 +163,32 @@ hr {
 }
 
 .circle {
-    width: 99%;
-    height: 124%;
+    width: 130px;
+    height: 152px;
     background: transparent; 
-    border: 2px solid #791922; 
+    border: 3px solid #791922; 
     border-radius: 50%; 
 }
 
 
 .home-image img {
     position: absolute;
-    bottom: 581px; 
-    right: -21px; 
+    bottom: 115px; 
+    right: -24px; 
     width: 55%; 
     pointer-events: none;
 }
 
 
 .overlay {
-    height: 47%;
-    position: absolute; 
-    top: 60px; 
-    right: -2px; 
+    height: 41%;
+    position: relative; 
+    top: 7px; 
+    right: 160px; 
     width: 0;
-    border-top: 120px solid #FFB3B1;
-    border-right: 87px solid #FFB3B1;
-    border-bottom: 120px solid #FFB3B1;
+    border-top: 158px solid #FFB3B1;
+    border-right: 52px solid #FFB3B1;
+    border-bottom: 177px solid #FFB3B1;
     border-left: 128px solid transparent;
 }
 
@@ -518,6 +524,10 @@ color:#e7526c
             font-size: 94px;
         }
 
+        hr {
+            width: 81%;
+        }
+
         #home-container h2 {
             font-size: 30px; 
         }
@@ -527,40 +537,41 @@ color:#e7526c
     }
 
     #home-container .aspire-container {
-        top: 43%;
-        width: 35%;
-        height: 65%;
+        width: 61%;
+        height: 98%;
     }
 
     #home-container .aspire-container .aspire-box {
-
+        top: 90px;
+        left: -50px;
         height: 100%; 
         right: 0;
+        width: 97%;
     }
 
 
     .overlay {
-        height: 100%;
+        height: 99%;
         position: absolute; 
         top: 0; 
         right: 0; 
         width: 0;
-        border-top: 228px solid #FFB3B1;
-        border-right: 228px solid #FFB3B1;
-        border-bottom: 228px solid #FFB3B1;
+        border-top: 243px solid #FFB3B1;
+        border-right: 204px solid #FFB3B1;
+        border-bottom: 246px solid #FFB3B1;
         border-left: 228px solid transparent;
     }
 
     .circle {
-        width: 94%;
-        height: 71%;
+        width: 307px;
+        height: 375px;
     }
 
     .home-image img {
         position: absolute;
-        bottom: 177px; 
-        right: 113px; 
-        width: 37%; 
+        bottom: 142px; 
+        right: 17px; 
+        width: 51%; 
         pointer-events: none;
     }
 
@@ -638,20 +649,37 @@ color:#e7526c
         font-size: 113px
     }
 
+    hr {
+        width: 67%;
+    }
+
     .overlay {
-        border-right: 286px solid #FFB3B1;
+        border-top: 243px solid #FFB3B1;
+        border-right: 401px solid #FFB3B1;
+        border-bottom: 228px solid #FFB3B1;
+    }
+    .circle {
+        width: 307px;
+        height: 430px;
     }
 
     #home-container .aspire-container {
-        top: 48%; 
+        top: 27%; 
         right: 6%; 
         width: 45%; 
-        height: 88%;
+        height: 57%;
     }
 
+    #home-container .aspire-container .aspire-box {
+        top: 203px;
+        left: -195px;
+    }
+
+
     .home-image img {
-        bottom: 102px;
-        right: 127px;
+        top: -51px;
+        right: 75px;
+        width: 50%;
 
     }
 
