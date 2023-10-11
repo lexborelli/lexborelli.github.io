@@ -164,7 +164,7 @@ hr {
 
 .circle {
     width: 130px;
-    height: 171px;
+    height: 164px;
     background: transparent; 
     border: 3px solid #791922; 
     border-radius: 50%; 
@@ -183,11 +183,11 @@ hr {
 .overlay {
     height: 41%;
     position: relative; 
-    top: -5px; 
-    right: 131px; 
+    top: -13px; 
+    right: 136px; 
     width: 0;
     border-top: 158px solid #FFB3B1;
-    border-right: 52px solid #FFB3B1;
+    border-right: 96px solid #FFB3B1;
     border-bottom: 177px solid #FFB3B1;
     border-left: 128px solid transparent;
 }
