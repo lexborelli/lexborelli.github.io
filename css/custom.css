@@ -164,7 +164,7 @@ hr {
 
 .circle {
     width: 130px;
-    height: 164px;
+    height: 179px;
     background: transparent; 
     border: 3px solid #791922; 
     border-radius: 50%; 
@@ -174,7 +174,7 @@ hr {
 .home-image img {
     position: absolute;
     bottom: 115px; 
-    right: -24px; 
+    right: -1px; 
     width: 55%; 
     pointer-events: none;
 }
@@ -184,10 +184,10 @@ hr {
     height: 41%;
     position: relative; 
     top: -13px; 
-    right: 136px; 
+    right: 140px; 
     width: 0;
     border-top: 158px solid #FFB3B1;
-    border-right: 96px solid #FFB3B1;
+    border-right: 89px solid #FFB3B1;
     border-bottom: 177px solid #FFB3B1;
     border-left: 128px solid transparent;
 }
