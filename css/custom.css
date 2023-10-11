@@ -183,8 +183,8 @@ hr {
 .overlay {
     height: 41%;
     position: relative; 
-    top: 7px; 
-    right: 160px; 
+    top: -5px; 
+    right: 131px; 
     width: 0;
     border-top: 158px solid #FFB3B1;
     border-right: 52px solid #FFB3B1;
