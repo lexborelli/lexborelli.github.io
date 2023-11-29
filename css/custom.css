@@ -73,24 +73,31 @@ a:hover {
 .name, h1 { 
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: baseline;
-    color:#805959;
+    justify-content: space-evenly;
+    color:#ffb3b1;
     font-weight: 700;
     padding: 0;
 }
 
 .name {
     margin-top: 28px;
+    padding-top: 26%;
+    padding-left: 3%;
 }
 
 .first {
     margin-top: 90px;
-    font-size: 61px;
+    font-size: 46px;
 }
  
 .last {
-    font-size: 60px; 
+    font-size: 46px; 
+}
+
+.breakpoint {
+place-self: flex-start;
 }
 
 hr {
@@ -102,7 +109,7 @@ hr {
 #home-container h2 {
     margin-left: 0px;
     margin-top: -5px;
-    color: #727272;
+    color: #f8f9fa;
     letter-spacing: initial;
     font-size: 13px;
 }
@@ -110,14 +117,18 @@ hr {
 #home-container {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    background: #FFFFFF;
+    background-image: url("../images/cityatnight.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 10px;
 }
 
 
 
-#home-container .aspire-container {
+/*#home-container .aspire-container {
     position: relative; 
     top: 69px; 
     right: 0px;
@@ -168,7 +179,7 @@ hr {
     background: transparent; 
     border: 3px solid #791922; 
     border-radius: 50%; 
-}
+}*/
 
 
 .home-image img {
@@ -180,7 +191,7 @@ hr {
 }
 
 
-.overlay {
+/*.overlay {
     height: 41%;
     position: relative; 
     top: -14px; 
@@ -190,7 +201,7 @@ hr {
     border-right: 89px solid #FFB3B1;
     border-bottom: 177px solid #FFB3B1;
     border-left: 128px solid transparent;
-}
+}*/
 
 #about-me {
     margin-top: 30px;
@@ -407,7 +418,7 @@ button {
     margin: auto;
     padding: 10px 36px;
     border-radius: 5px;
-    background: #f8f9fa;
+    background: #ced4da;
     cursor: pointer;
 }
 
@@ -513,7 +524,8 @@ color:#e7526c
         .name {
             margin: 0;
             letter-spacing: 0.4rem;
-            width: 74%;
+            justify-content: space-evenly;
+            padding-top: 24%;
         }
 
         .first {
@@ -536,12 +548,15 @@ color:#e7526c
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #home-container .aspire-container {
-        width: 61%;
+    #home-container {
+        width: 100%;
         height: 98%;
+        padding-top: 54%;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
-    #home-container .aspire-container .aspire-box {
+    /*.aspire-container .aspire-box {
         top: 90px;
         left: -50px;
         height: 100%; 
@@ -573,7 +588,7 @@ color:#e7526c
         right: 17px; 
         width: 51%; 
         pointer-events: none;
-    }
+    }*/
 
 #programming, 
 #front-end, 
@@ -638,10 +653,17 @@ color:#e7526c
 
     #home-container {
         margin-top: 0;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .projects-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .name {
+        padding-top: 4%;
+        padding-left: 3%;
     }
 
     .first,
@@ -649,11 +671,15 @@ color:#e7526c
         font-size: 113px
     }
 
-    hr {
-        width: 67%;
+    .breakpoint {
+        padding-top: 16%;
     }
 
-    .overlay {
+    hr {
+        width: 99%;
+    }
+
+    /*.overlay {
         border-top: 243px solid #FFB3B1;
         border-right: 401px solid #FFB3B1;
         border-bottom: 228px solid #FFB3B1;
@@ -681,7 +707,7 @@ color:#e7526c
         right: 75px;
         width: 50%;
 
-    }
+    }*/
 
     .project img {
         width: 19em;
